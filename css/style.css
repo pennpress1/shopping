@@ -1,0 +1,111 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+    font-weight: normal;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.625em;
+    font-weight: normal !important;
+}
+li {
+    margin: 0.313em;
+    padding: 0.313em;
+    width: 18.750em;
+}
+button {
+    float: right;
+}
+button:focus {
+    outline: 0;
+}
+input {
+    border: 1px solid #848484 !important;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    border-radius: 30px !important;
+    outline: 0 !important;
+    height: 25px !important;
+    width: 17.25em !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin-left: 0.188em !important;
+}
+section {
+    border: thick solid #dddddd;
+    -webkit-border-radius: 1.750em;
+    -moz-border-radius: 1.750em;
+    border-radius: 1.750em;
+    padding: 0.45rem;
+    width: 22rem;
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-top:2rem;
+}
+nav {
+    padding-bottom: 0.45rem;
+    margin: 0 auto;
+}
+
+.headings{
+    font-size: 1.25rem;
+    margin:0 auto;
+    padding:.75rem;
+}
+
+.fa-shopping-bag{
+    color:#ff4948;
+}
+
+.Subheading{
+    text-align: center;
+    font-size: .75rem;
+}
+.inputMenu {
+    width: 20rem;
+    margin-left:.75rem;
+}
+#btnName {
+    -webkit-border-radius: 1.750em;
+    -moz-border-radius: 1.750em;
+    border-radius: 1.750em;
+    color: #ffffff;
+    font-size: .65rem;
+    background: #4a4f52;
+    padding: 0.30rem;
+    text-decoration: none;
+    margin-right:.9rem;
+}
+#sortable {
+    width: 18.750em;
+    margin-left: .75rem;
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border-radius: 0.125em !important;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,ffffff+100;White+Gloss+%232 */
+    
+    background: #ffffff;
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
+    /* FF3.6-15 */
+    
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    
+    background: linear-gradient(to bottom, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+    /* IE6-9 */
+}

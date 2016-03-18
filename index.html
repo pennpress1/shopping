@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Shopping List</title>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="js/mine.js"></script>
+</head>
+
+<body>
+    <section>
+        <nav class="inputMenu">
+            <p class="headings"><i class="fa fa-shopping-bag fa-2x"></i> Shopping List Helper</p>
+            <input type="test" id="inputName" />
+            <button id="btnName">Add To List</button>
+        </nav>
+        <ul id="sortable">
+            <li class="ui-state-default">eggs
+                <button id="hide" onclick="parentNode.remove()">Delete</button>
+                <button id="bought" onclick="parentNode.style.background='#00e500'" ;>Bought</button>
+            </li>
+            <li class="ui-state-default">milk
+                <button id="hide" onclick="parentNode.remove()">Delete</button>
+                <button id="bought" onclick="parentNode.style.background='#00e500'" ;>Bought</button>
+            </li>
+            <li class="ui-state-default">bread
+                <button id="hide" onclick="parentNode.remove()">Delete</button>
+                <button id="bought" onclick="parentNode.style.background='#00e500'" ;>Bought</button>
+            </li>
+            <li class="ui-state-default">pie
+                <button id="hide" onclick="parentNode.remove()">Delete</button>
+                <button id="bought" onclick="parentNode.style.background='#00e500'" ;>Bought</button>
+            </li>
+            <li class="ui-state-default">soda
+                <button id="hide" onclick="parentNode.remove()">Delete</button>
+                <button id="bought" onclick="parentNode.style.background='#00e500'" ;>Bought</button>
+            </li>
+        </ul>
+        <p class="Subheading"> You can drag the list items in any order you want.</p>
+    </section>
+
+
+</body>
+
+</html>
